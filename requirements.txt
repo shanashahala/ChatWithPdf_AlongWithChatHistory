@@ -1,0 +1,12 @@
+langchain == 1.2.0
+faiss-cpu == 1.13.2
+langchain_core == 1.2.5
+langchain_community == 0.4.1
+langchain_groq == 1.1.1
+dotenv == 0.9.9
+streamlit == 1.52.2
+langchain_text_splitters == 1.1.0
+pypdf == 6.5.0
+langchain_huggingface 
+langchain_chroma
+sentence-transformers
