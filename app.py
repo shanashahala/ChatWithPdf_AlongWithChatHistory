@@ -20,6 +20,7 @@ os.environ['HF_TOKEN'] = os.getenv("HF_TOKEN")
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 st.title("Conversational RAG With PDF")
+#add groq api key
 api_key = st.sidebar.text_input("Enter your Groq API key:", type="password")
 
 if 'store' not in st.session_state:
